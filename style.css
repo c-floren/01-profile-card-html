@@ -1,0 +1,61 @@
+/* Set a clean page background, remove default page margin, center content, and use a readable system font */
+body {
+  margin: 0; /* remove default browser margin */
+  background-color: #add8e6; /* light blue page background */
+  text-align: center; /* center the card horizontally */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; /* use a clean system font stack */
+}
+
+/* Make the profile section look like a centered card with padding, border, and a soft shadow */
+main {
+  background-color: #ffffff; /* white card background */
+  border: 1px solid #d0d7de; /* subtle border around the card */
+  border-radius: 18px; /* rounded corners for a softer card look */
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08); /* gentle card shadow */
+  display: inline-block; /* shrink-wrap the card content */
+  margin: 4rem auto; /* center the card and add vertical space */
+  max-width: 500px; /* limit the card width for readability */
+  padding: 2rem 2.25rem; /* add inner spacing around content */
+  text-align: left; /* left-align text inside the card */
+}
+
+/* Style the main heading with a larger font size and a bold blue color */
+h1 {
+  font-size: 2.5rem; /* make the title prominent */
+  color: #1b3a6b; /* strong blue heading color */
+  margin: 0 0 0.5rem; /* space below the heading */
+}
+
+/* Style the subtitle with a slightly smaller size and muted tone */
+h2 {
+  font-size: 1.5rem; /* smaller heading for subtitle */
+  color: #4f5d78; /* muted slate color */
+  margin: 0 0 1rem; /* space below the subtitle */
+}
+
+/* Style the profile image so it fits well inside the card and stays centered */
+img {
+  display: block; /* allow centering via margin */
+  margin: 0 auto 1.5rem; /* center image and add space below */
+  width: 120px; /* fixed width for a neat profile image */
+  max-width: 100%; /* prevent oversized images */
+  border-radius: 50%; /* make the image round */
+}
+
+/* Style the favorite sites list with no bullets and extra spacing between items */
+ul {
+  list-style: none; /* remove default bullets */
+  padding-left: 0; /* remove left indent */
+  margin: 1rem 0 0; /* add space above the list */
+}
+
+ul li {
+  margin: 0.6rem 0; /* spacing between list items */
+}
+
+/* Keep paragraph text tidy with no extra margin, a calm color, and readable line spacing */
+p {
+  margin: 0; /* remove default paragraph margin */
+  color: #374151; /* dark gray body text */
+  line-height: 1.6; /* improve readability */
+}
